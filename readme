@@ -1,0 +1,31 @@
+- 10 minuten
+Brainstormen wat ik wil gaan maken en kijken of er informatie te vinden is.
+Ik wil een tic-tac-toe app maken waar material mee is verbonden.
+
+- 20 minuten
+Files goed zetten en project klaar zetten zodat de welkom scherm van angular tevoorschijn komt.
+Hiervoor heb ik SCSS gekozen.
+
+- 30 minuten
+Component aanmaken genaamd "game".
+De nieuwe component verbonden aan "appcomponent".
+Main container aangemaakt in "game.component.html".
+En nog wat code toegevoegd in deze main container.
+Angular material designs toevoegen voor project hierbij heb ik gekozen als theme "Deep Purple/Amber".
+
+- 40 minuten
+Angular material "button" importeren.
+Angular animatie en kleur werkt niet.
+Na 5 minuten zoeken is het probleem gevonden ik moest de material nog update en heb ik dus angular opnieuw opgestart.
+
+- 50-70 minuten
+Styles aangepast van text en de achtergrond veranderd naar zwart.
+Omdat ik voor een zwarte achtergrond heb gekozen maak ik alle text wit.
+Ook voeg ik een sub-classess in de main class toe.
+Ik voeg nu bootstrap toe aan het project via de terminal.
+ik importeer bootstrap naar mijn style.scss maar lukt mij niet ik krijg errors.
+Na een derde persoon gesproken te hebben heb ik besloten om een URl te importeren omdat het anders niet lukt.
+
+- Github eerste push voor tussentijdse cloud opslag
+
+- 80 minuten
