@@ -26,6 +26,57 @@ Ik voeg nu bootstrap toe aan het project via de terminal.
 ik importeer bootstrap naar mijn style.scss maar lukt mij niet ik krijg errors.
 Na een derde persoon gesproken te hebben heb ik besloten om een URl te importeren omdat het anders niet lukt.
 
-- Github eerste push voor tussentijdse cloud opslag
+- Github eerste push voor tussentijdse save
 
 - 80 minuten
+De gamefield aanmaken met containers.
+Nadat de gamefield containers aangemaakt zijn ga ik de styling toevoegen.
+Nu ga ik de players toevoegen (player 1 en 2).
+Ook de styling word erbij toegevoegd.
+
+-90 minuten
+een nieuwe class generate genaamd gamelogic 
+in de gamelogic.ts file ga ik wat code toevoegen om de game werkend te laten maken
+Ook heb ik een class gemaakt genaamd gamestatus
+een startgame function maken in gamecomponent
+startgame function toevoegen aan button
+
+-100 minuten
+Positions toevoegen aan fields
+function toevoegen
+click events toevoegen aan defields
+
+-110 minuten
+position click event werkend gemaakt
+current player en status frontend
+
+-120-135 minuten
+Informatie error in code om current player op te halen
+Uiteindelijk opgelost door strict mode naar false te veranderen.
+
+-150 minuten
+turns en clicks function verbeteren + front end
+en click return functions toevoegen
+
+- Github tweede push voor tussentijdse save
+
+-160 minuten
+een turn function maken zodat elke keer een andere speler aan de beurt is
+
+-185 minuten
+update function toevoegen aan text bij elke turn
+winner en game=full function toevoegen
+Game full function finished
+
+-210 minuten
+Game win situations toevoegen 
+en async functions verbeteren
+twee verschillende data te maken voor elke speler zodat deze niet door elkaar gaan
+
+-230 minuten
+finishing touches
+game testing
+en project afronden
+
+
+

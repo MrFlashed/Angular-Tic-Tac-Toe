@@ -24,12 +24,31 @@ export class GameComponent {
   async clickSubField( subfield: any): Promise<void>{
     if(this.game.gameStatus === 1){
       const position = subfield.currentTarget.getAttribute('position');
+      const information = document.querySelector('.current-status');
 
       this.game.setField(position, this.game.currentTurn);
       const color = this.game.getPlayerColorClass();
       subfield.currentTarget.classList.add(color);
-    }
 
-    
+
+      await this.game.checkGameEndWinner().then( (end: boolean) =>{
+        if(this.game.gameStatus === 0 && end){
+          information.innerHTML = 'The winner is player nr. ' + this.game.currentTurn;
+        }
+      });
+
+      await this.game.checkGameEndFull().then( (end: boolean) =>{
+        if(this.game.gameStatus === 0 && end){
+          information.innerHTML = 'No winner, draw';
+        }
+      });
+
+      this.game.changePlayer();
+
+      if (this.game.gameStatus === 1){
+        const currentPlayer = 'Current turn: Player: ' + this.game.currentTurn;
+        information.innerHTML = currentPlayer;
+    }
+    }
   }
 }
